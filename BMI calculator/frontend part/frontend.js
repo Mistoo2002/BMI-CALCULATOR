@@ -1,4 +1,5 @@
 function calculateBMI() {
+    //BMI CALCULATOR
     let weight = parseFloat(document.getElementById("weight").value);
     let height = parseFloat(document.getElementById("height").value);
     let heightUnit = document.querySelector('input[name="heightUnit"]:checked').value;
