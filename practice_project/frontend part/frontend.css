@@ -1,0 +1,82 @@
+h1{
+    color: red;
+}
+h1:hover{
+    color: aqua;
+}
+h2:hover{
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+.container:hover{
+    background-color: lightcyan;
+}
+input, select, label {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+.radio-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px 0;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background: rgb(238, 108, 108);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.radio-group input {
+    display: none;
+}
+.radio-group input:checked + label {
+    background: red;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background: #0056b3;
+}
+#result {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#bmi-category {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
